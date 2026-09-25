@@ -8,8 +8,7 @@ lb config \
     --archive-areas "main contrib non-free-firmware" \
     --apt-recommends false \
     --apt-indices false \
-    --memtest none \
-    --win32-loader false
+    --memtest none
 
 lb build
 
