@@ -17,6 +17,3 @@ nano
 ca-certificates
 curl
 wget
-
-calamares
-calamares-settings-debian

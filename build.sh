@@ -9,7 +9,8 @@ lb config \
     --apt-recommends false \
     --apt-indices false \
     --memtest none \
-    --win32-loader false
+    --win32-loader false \
+    --debian-installer live
 
 lb build
 
