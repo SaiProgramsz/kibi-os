@@ -6,7 +6,10 @@ lb config \
     --architectures amd64 \
     --binary-images iso-hybrid \
     --archive-areas "main contrib non-free-firmware" \
-    --apt-recommends false
+    --apt-recommends false \
+    --apt-indices false \
+    --memtest none \
+    --win32-loader false
 
 lb build
 
